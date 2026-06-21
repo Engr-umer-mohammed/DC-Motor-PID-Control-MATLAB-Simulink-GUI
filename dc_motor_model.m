@@ -1,9 +1,9 @@
 function dx = dc_motor_model(t, x, u, params)
-% DC_MOTOR_MODEL - State-space model of a DC motor
+% DC_MOTOR_MODEL  State-space model of a DC motor
 % Inputs:
-%   t      - current time (required by ode45, not used here)
+%   t      - current time (not used but required by ode45)
 %   x      - state vector [omega; i]
-%   u      - applied voltage
+%   u      - input voltage
 %   params - structure containing motor parameters
 %
 % Output:
